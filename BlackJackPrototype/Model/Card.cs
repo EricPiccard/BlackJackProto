@@ -15,7 +15,6 @@ namespace BlackJackPrototype.Model
             this.Rank = Rank;
             this.Suit = Suit;
             Display = Rank + " of " + Suit;
-            
             switch (Rank)
             {
                 case cardRank.Jack:
